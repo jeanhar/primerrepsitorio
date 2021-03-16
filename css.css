@@ -1,0 +1,151 @@
+body {
+    padding-top: 55px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .cabeza {
+    background-color: rgb(48, 110, 224);
+    width: 100%;
+    height: 25%;
+    position: fixed;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    top: 5px;
+    
+  
+  }
+  
+  .cabeza__logo {
+    box-sizing: border-box;
+   /* border: 1px solid red;*/
+    width: 20%;
+    margin-left: 1%;
+   /* display: inline-block;*/
+  }
+  .cabeza__menu {
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 15px;
+    margin-left: 4%;
+    width: 56%;
+   /* display: inline-block;*/
+  }
+  .cabeza__login {
+    box-sizing: border-box;
+    border: none;
+    width: 20%;
+   /* display: inline-block;*/
+  }
+  .rz{
+     /* position: absolute;
+      margin-top: 90px; 
+    margin-left: 1000px;*/
+    width: 100%;
+      
+  
+  }
+  
+  .rm{
+      
+  
+      margin-top: 1px; 
+    margin-left: 1px;
+    width: 50%;
+      margin-bottom: 10px;
+      
+  
+  
+  }
+  .zz{
+    height: 89px;
+  }
+  
+  
+  
+  .botones {
+              float:left;
+      width:300px;
+      margin:0px 2px;
+      height:48px;
+      background:rgb(230, 159, 7);
+      font-family: 'Kaushan Script', cursive;
+      color:rgb(235, 220, 16);
+      text-align:center;
+      line-height:48px;
+      list-style:none;
+      
+          }
+  
+          a .botones:hover{
+      background:rgba(0, 140, 255, 0.4);
+      }
+      
+  a .botones:active{
+      background:rgb(200, 255, 0);
+      }
+  
+  
+  
+      .productos {
+  
+          margin-top: 12%;
+    background-color: rgb(235, 231, 21);
+  
+    height: 100px;
+    padding: 10px;
+    display:flex;
+  
+    flex-direction: row;
+    align-items: center;
+    flex-wrap:wrap ;
+    
+  }
+  .productos__item1 {
+    background-image: url("img/instru.jpg");
+    background-size: cover;
+    border: 1px solid yellow;
+    width: 20%;
+    height: 80px;
+    margin-right: 20px;
+   /* float: left;*/
+   align-self:flex-end;
+   flex-grow: 1;
+   flex-shrink: 1;
+  }
+  .productos__item2 {
+   /* background-image: url("img/cuerdas.jpg");*/
+    background-size: cover;
+      background-repeat: no-repeat;
+    border: 1px solid yellow;
+    width: 20%;
+    height: 80px;
+    margin-right: 20px;
+   /* margin-left: 20px;*/
+   /* float: left;*/
+   flex-grow: 1;
+   flex-shrink: 4;
+  }
+  .productos__item3 {
+    background-image: url("img/instru.jpg");
+    background-size: cover;
+    border: 1px solid yellow;
+    width: 20%;
+    height: 80px;
+    margin-right: 20px;
+    float: left;
+    flex-grow: 1;
+    flex-shrink: 3;
+  }
+  .productos__item4 {
+    background-image: url("img/instru.jpg");
+    background-size: cover;
+    border: 1px solid yellow;
+    width: 20%;
+    height: 80px;
+    margin-right: 20px;
+   /* float: left;*/
+   align-self:flex-end;
+   flex-grow: 1;
+   flex-shrink: 2;
+  }
